@@ -1,0 +1,19 @@
+{
+  "name": "gatsby-plugin-reason",
+  "version": "0.1.0",
+  "description": "Make gatsby work with ReasonML (.re) files",
+  "main": "index.js",
+  "keywords": [
+    "gatsby-plugin",
+    "gatsby",
+    "reason",
+    "reasonml",
+    "plugin"
+  ],
+  "author": "Jaap Frolich",
+  "license": "MIT",
+  "repository": "https://github.com/jfrolich/gatsby-plugin-reason",
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  }
+}
