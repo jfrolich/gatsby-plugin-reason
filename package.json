@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-reason",
-  "version": "0.1.0",
+  "name": "@jfrolich/gatsby-plugin-reason",
+  "version": "0.1.1",
   "description": "Make gatsby work with ReasonML (.re) files",
   "main": "index.js",
   "keywords": [
