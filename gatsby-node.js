@@ -26,7 +26,7 @@ exports.onCreatePage = ({ page, actions: { createPage, deletePage } }) => {
         .toLowerCase()
     );
 
-    if (newPath == "/index") newPath = "/";
+    if (newPath == "/index/") newPath = "/";
     deletePage(oldPage);
     createPage({ ...page, path: newPath });
   }
