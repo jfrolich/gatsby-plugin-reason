@@ -4,11 +4,12 @@ const isCompiledFile = fileName => BS_TEST.test(fileName);
 function removeLeadingOrTrailingUnderscores(path) {
   return path
     .split("/")
-    .map(p => {
-      p.replace(/^_/, "")
+    .map(p =>
+      p
+        .replace(/^_/, "")
         .replace(/_$/, "")
-        .replace(/_/g, "-");
-    })
+        .replace(/_/g, "-")
+    )
     .join("/");
 }
 
